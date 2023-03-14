@@ -1,0 +1,30 @@
+{
+  "name": "renewable-energy",
+  "version": "1.0.0",
+  "description": "Nader's Project for Renewable Energy",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Beast/Renewable-Energy.git"
+  },
+  "keywords": [
+    "nodejs",
+    "save",
+    "the",
+    "planet",
+    "green"
+  ],
+  "author": "~Beast~#0001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-Beast/Renewable-Energy/issues"
+  },
+  "homepage": "https://github.com/M-Beast/Renewable-Energy#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
