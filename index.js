@@ -24,5 +24,5 @@ app.use('/', routes.main);
 
 app.listen(Port, (err) => {
     if (err) console.log(`Error occurred while starting the server.\n${err}`);
-    else console.log(`WebServer Listening on: ${Port}`);
+    else console.log(`The Server is Listening on: ${Port}`);
 })
