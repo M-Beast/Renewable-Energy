@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const Port = 3000;
+const Port = 3000; //server port
 
 // The Defined routes
 const routes = {
