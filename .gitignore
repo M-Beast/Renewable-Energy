@@ -5,9 +5,5 @@ config.js
 node_modules
 package-lock.json
 
-# The Saved Ids, APIs, Console Logs
-assets/assets.js
-Logs
-
 # IDE
 .vscode
