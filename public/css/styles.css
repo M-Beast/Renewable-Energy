@@ -8195,7 +8195,7 @@ h1, h2, h3, h4, h5,
   position: relative;
   color: rgba(255, 255, 255, 0.9); }
   .login-wrap h3 {
-    font-weight: 300;
+    font-weight: bold;
     color: #fff; }
   .login-wrap .social {
     width: 100%; }
@@ -8317,9 +8317,9 @@ textarea.form-control {
 
 /* Style the checkmark/indicator */
 .checkbox-primary {
-  color: #fbceb5; }
+  color: #fff; }
   .checkbox-primary input:checked ~ .checkmark:after {
-    color: #fbceb5; }
+    color: #fff; }
 
 .btn {
   cursor: pointer;
