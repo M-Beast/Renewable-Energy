@@ -5,7 +5,8 @@ const Port = 3000; //server port
 
 // The Defined routes
 const routes = {
-    main: require('./routes/index')
+    main: require('./routes/index'),
+    login: require('./routes/login')
 }
 
 // Static Files
@@ -13,6 +14,7 @@ app.use(express.static('public'));
 app.use('/css', express.static(path.join(__dirname + '/public/css')));
 app.use('/js', express.static(path.join(__dirname + '/public/js')));
 app.use('/img', express.static(path.join(__dirname + '/public/img')));
+app.use('/scss', express.static(path.join(__dirname + '/public/scss')));
 
 // Set View's
 app.set('views', './views');
@@ -21,6 +23,7 @@ app.engine("html", require("ejs").renderFile);
 
 // App Routers
 app.use('/', routes.main);
+app.use('/login', routes.login);
 
 app.listen(Port, (err) => {
     if (err) console.log(`Error occurred while starting the server.\n${err}`);
