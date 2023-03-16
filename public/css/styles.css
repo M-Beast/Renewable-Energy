@@ -8156,7 +8156,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #fbceb5; }
+  color: #fff; }
   a:hover, a:focus {
     text-decoration: none !important;
     outline: none !important;
@@ -8171,7 +8171,7 @@ h1, h2, h3, h4, h5,
   color: #000; }
 
 .bg-primary {
-  background: #fbceb5 !important; }
+  background: #fff !important; }
 
 .ftco-section {
   padding: 7em 0; }
@@ -8331,18 +8331,18 @@ textarea.form-control {
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #fbceb5 !important;
-    border: 1px solid #fbceb5 !important;
-    color: #000 !important; }
+    background: #fff !important;
+    border: 1px solid #fff !important;
+    color: #fff !important; }
     .btn.btn-primary:hover {
-      border: 1px solid #fbceb5;
+      border: 1px solid #fff;
       background: transparent;
       color: #fff; }
     .btn.btn-primary.btn-outline-primary {
-      border: 1px solid #fbceb5;
+      border: 1px solid #fff;
       background: transparent;
       color: #fff; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 1px solid transparent;
-        background: #fbceb5;
+        background: #fff;
         color: #fff; }
