@@ -8337,11 +8337,11 @@ textarea.form-control {
     .btn.btn-primary:hover {
       border: 1px solid #fbceb5;
       background: transparent;
-      color: #fbceb5; }
+      color: #fff; }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #fbceb5;
       background: transparent;
-      color: #fbceb5; }
+      color: #fff; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 1px solid transparent;
         background: #fbceb5;
