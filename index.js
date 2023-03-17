@@ -2,7 +2,7 @@ const express = require('express');
 const session = require("express-session");
 const path = require('path');
 const app = express();
-const Port = 3000; //server port
+const Port = 3000; //server port test
 
 // The Defined routes
 const routes = {
