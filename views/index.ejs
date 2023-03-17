@@ -27,13 +27,6 @@
   <!-- Template Main CSS File -->
   <link href="/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: eBusiness
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -99,8 +92,8 @@
           <div class="carousel-item" style="background-image: url(/img/hero-carousel/2.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Возобновляемая энергия</h2>
-                <p class="animate__animated animate__fadeInUp">Возобновляемая энергия всегда доступна, чтобы помочь вам с вашей продукцией.</p>
+                <h2 class="animate__animated animate__fadeInDown">طاقة متجددة</h2>
+                <p class="animate__animated animate__fadeInUp">الطاقة المتجددة متاحة دائمًا لمساعدتك في منتجاتك</p>
                 <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>
             </div>
@@ -115,6 +108,27 @@
               </div>
             </div>
           </div>
+          <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
 
         </div>
 
@@ -203,11 +217,11 @@
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-                    <i class="bi bi-briefcase"></i>
+                    <i class="bi bi-sun"></i>
                   </a>
-                  <h4>Expert Coder</h4>
+                  <h4>Solar panel installation</h4>
                   <p>
-                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
+                    Our team will work with you to design and install a solar panel system that meets your energy needs and fits your budget. We use high-quality materials and the latest technology to ensure maximum efficiency and longevity.
                   </p>
                 </div>
               </div>
@@ -219,11 +233,11 @@
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-                    <i class="bi bi-card-checklist"></i>
+                    <i class="bi bi-house-gear"></i>
                   </a>
-                  <h4>Creative Designer</h4>
+                  <h4>Solar panel maintenance and repair</h4>
                   <p>
-                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
+                    Regular maintenance is key to keeping your solar panel system running smoothly. We offer routine maintenance services and can also help with repairs if your system needs attention.
                   </p>
                 </div>
               </div>
@@ -236,11 +250,11 @@
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-                    <i class="bi bi-bar-chart"></i>
+                    <i class="bi bi-battery-charging"></i>
                   </a>
-                  <h4>Wordpress Developer</h4>
+                  <h4>Battery backup systems</h4>
                   <p>
-                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
+                    If you want to be able to use your solar power even during power outages, we can install a battery backup system that will keep your lights and appliances running.
                   </p>
                 </div>
               </div>
@@ -253,11 +267,11 @@
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-                    <i class="bi bi-binoculars"></i>
+                    <i class="bi bi-lightning-charge"></i>
                   </a>
-                  <h4>Social Marketer </h4>
+                  <h4>Energy audits</h4>
                   <p>
-                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
+                    Not sure how much energy you're using or where you could make improvements? Our energy audits can help you identify areas where you could save energy and reduce your carbon footprint.
                   </p>
                 </div>
               </div>
@@ -271,11 +285,11 @@
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-                    <i class="bi bi-brightness-high"></i>
+                    <i class="bi bi-life-preserver"></i>
                   </a>
-                  <h4>Seo Expart</h4>
+                  <h4>Consultation and Design</h4>
                   <p>
-                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
+                    Our team of experts can provide consultation services to help you make informed decisions about your renewable energy needs. We can assess your energy usage, budget, and goals to recommend the best solar panel system for your home or business. We will also work with you to design a customized system that meets your specific needs and preferences, ensuring maximum energy efficiency and cost savings.
                   </p>
                 </div>
               </div>
@@ -293,7 +307,7 @@
                   </a>
                   <h4>24/7 Support</h4>
                   <p>
-                    will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
+                    We know that issues can arise at any time, which is why we offer 24/7 support. Whether you have a question or need help with your system, our team is available around the clock to assist you.
                   </p>
                 </div>
               </div>
@@ -342,7 +356,7 @@
                 </div>
               </div>
               <div class="team-content text-center">
-                <h4>Jhon Mickel</h4>
+                <h4>Hossam Mahmoud</h4>
                 <p>Seo</p>
               </div>
             </div>
@@ -375,7 +389,7 @@
                 </div>
               </div>
               <div class="team-content text-center">
-                <h4>Andrew Arnold</h4>
+                <h4>Omar Turkey</h4>
                 <p>Web Developer</p>
               </div>
             </div>
@@ -408,7 +422,7 @@
                 </div>
               </div>
               <div class="team-content text-center">
-                <h4>Lellien Linda</h4>
+                <h4>Bhaa Mustafa</h4>
                 <p>Web Design</p>
               </div>
             </div>
@@ -441,7 +455,7 @@
                 </div>
               </div>
               <div class="team-content text-center">
-                <h4>Jhon Powel</h4>
+                <h4>Nader Sayed</h4>
                 <p>Seo Expert</p>
               </div>
             </div>
@@ -460,7 +474,7 @@
         <div class="col-lg-6 work-right-text d-flex align-items-center">
           <div class="px-5 py-5 py-lg-0">
             <h2>Recognised as a Supplier Engagement Leader by CDP</h2>
-            <h5>We have been included for yet another year in the Supplier Engagement Leaderboard, prepared by CDP, a recognised organisation that has been working for more than twenty years on the transparency and performance of the climate practices of the different actors, with the climate action of our entire value chain being recognised.</h5>
+            <h5>CDP has recognized the value of the entire Value Chain for its performance in adapting to climate change</h5>
             <a href="#contact" class="ready-btn scrollto">Contact us</a>
           </div>
         </div>
@@ -842,7 +856,7 @@
                   <h2><span>Renewable</span>Energy</h2>
                 </div>
 
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                <p>We look forward to preserving nature and reducing pollution to keep people safe</p>
                 <div class="footer-icons">
                   <ul>
                     <li>
@@ -879,17 +893,7 @@
             </div>
           </div>
           <!-- end single footer -->
-          <div class="col-md-4">
-            <div class="footer-content">
-              <div class="footer-head">
-                <h4>Instagram</h4>
-                <div class="flicker-img">
-                  <a href="#"><img src="/img/portfolio/1.jpg" alt=""></a>
-                  <a href="#"><img src="/img/portfolio/2.jpg" alt=""></a>
-                  <a href="#"><img src="/img/portfolio/3.jpg" alt=""></a>
-                  <a href="#"><img src="/img/portfolio/4.jpg" alt=""></a>
-                  <a href="#"><img src="/img/portfolio/5.jpg" alt=""></a>
-                  <a href="#"><img src="/img/portfolio/6.jpg" alt=""></a>
+
                 </div>
               </div>
             </div>
@@ -920,9 +924,6 @@
     </div>
   </footer><!-- End  Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
   <!-- Vendor JS Files -->
   <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="/vendor/glightbox/js/glightbox.min.js"></script>
@@ -930,8 +931,8 @@
   <script src="/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="/vendor/php-email-form/validate.js"></script>
 
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-a19dfe02-4d1e-4488-befd-878938369aa7"></div>
+  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <div class="elfsight-app-a19dfe02-4d1e-4488-befd-878938369aa7"></div>
 
   <!-- Template Main JS File -->
   <script src="/js/main.js"></script>
