@@ -57,11 +57,22 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <div>
-        <a class="btn text-light" href="/login">Login</a>
-        <a class="btn btn-primary" href="#signup">SignUp</a>
-      </div>
-      
+      <% if (user != null) { %>
+        <div class="dropdown user-img">
+          <div class="d-flex align-items-center cursor-pointer dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="me-2 d-none d-sm-block text-light"><%= user.username %></span>
+              <img class="navbar-profile-image" src="https://cdn.discordapp.com/attachments/1039844122976071740/1086268978910986290/User-avatar.svg.png" alt="Image">
+          </div>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="/logout">Sign out</a></li>
+          </ul>
+        </div>
+      <% } else { %>
+        <div class="loginnsign">
+          <a class="btn text-light" href="/login">Login</a>
+          <a class="btn btn-primary" href="/signup">SignUp</a>
+        </div>
+      <% } %>
 
     </div>
   </header><!-- End Header -->

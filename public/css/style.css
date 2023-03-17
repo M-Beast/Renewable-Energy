@@ -2538,6 +2538,21 @@ span.email-notes {
   li.threaded-comments {
     margin-left: 0;
   }
+
+  .loginnsign {
+    display: none;
+  }
+
+  .user-img {
+    display: none;
+  }
+}
+
+.navbar-profile-image {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 /* Large Mobile :480px. */
