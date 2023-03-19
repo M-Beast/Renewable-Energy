@@ -10,6 +10,7 @@ const routes = {
     login: require('./routes/login'),
     signup: require('./routes/signup'),
     logout: require('./routes/logout'),
+    contact: require('./routes/contact'),
     payment: require('./routes/payment')
 }
 
@@ -46,6 +47,7 @@ app.use('/', routes.main);
 app.use('/login', routes.login);
 app.use('/signup', routes.signup);
 app.use('/logout', routes.logout);
+app.use('/contact', routes.contact);
 app.use('/payment', routes.payment);
 
 app.listen(Port, (err) => {
