@@ -29,10 +29,10 @@ route.post('/', (req, res) => {
     transporter.sendMail(mailOptions, function (err, info) {
         if (err) {
             console.error(err);
-            res.status(500).send({ success: false, message: "Error sending message" });
+            res.status(500).redirect('/');
         } else {
             console.log("Email sent: " + info.response);
-            res.status(200).send({ ok: "OK" });
+            res.status(200).redirect('/');
         }
     });
 });
