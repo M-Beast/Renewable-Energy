@@ -9,7 +9,9 @@ const routes = {
     main: require('./routes/index'),
     login: require('./routes/login'),
     signup: require('./routes/signup'),
-    logout: require('./routes/logout')
+    logout: require('./routes/logout'),
+    contact: require('./routes/contact'),
+    payment: require('./routes/payment')
 }
 
 // App configuration
@@ -45,6 +47,8 @@ app.use('/', routes.main);
 app.use('/login', routes.login);
 app.use('/signup', routes.signup);
 app.use('/logout', routes.logout);
+app.use('/contact', routes.contact);
+app.use('/payment', routes.payment);
 
 app.listen(Port, (err) => {
     if (err) console.log(`Error occurred while starting the server.\n${err}`);
