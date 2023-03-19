@@ -1,6 +1,7 @@
 const express = require('express');
 const route = express.Router();
 const nodemailer = require("nodemailer");
+const config = require('../config');
 const DB = require('../Modules/UsersDB');
 
 route.post('/', (req, res) => {
@@ -11,14 +12,14 @@ route.post('/', (req, res) => {
         port: 465,
         secure: true,
         auth: {
-            user: "renewableenergy1223@gmail.com",
-            pass: "msmhtidrgblwofex",
+            user: config.Email.Sender.email,
+            pass: config.Email.Sender.pass
         },
     });
 
     const mailOptions = {
-        from: "renewableenergy1223@gmail.com",
-        to: "nadermedo1577@gmail.com",
+        from: config.Email.Sender.email,
+        to: config.Email.Receiver.email,
         subject: "New Message from Contact Form",
         html: `<p><strong>Name:</strong> ${name}</p>
               <p><strong>Email:</strong> ${email}</p>
