@@ -2555,6 +2555,10 @@ span.email-notes {
   border-radius: 50%;
 }
 
+.prc-img {
+  height: 200px;
+}
+
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .submitbtn {
